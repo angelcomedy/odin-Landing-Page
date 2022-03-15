@@ -1,12 +1,5 @@
-.navigation-bar {
-    display: flexbox;
-    background-color: #AC4B1C;
-}
-
-.navigation-bar div {
+.navbar {
     display: flex;
+    background-color: #FF9292;
     flex-direction: row;
-    justify-content: flex-end;
-    flex-wrap: nowrap;
-
 }

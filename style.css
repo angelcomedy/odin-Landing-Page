@@ -1,5 +1,22 @@
 .navbar {
     display: flex;
     background-color: #FF9292;
-    flex-direction: row;
+    justify-content: flex-end;
+    gap: 50%;
+}
+
+.nav-links {
+    display: flex;
+    border: 1px solid black;
+    margin: 0;
+    padding: 0;
+    flex-wrap: nowrap;
+    
+}
+
+
+.nav-item {
+    display: flex;
+    padding: 5px;
+    flex: 1 1 0%;
 }

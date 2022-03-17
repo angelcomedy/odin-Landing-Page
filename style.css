@@ -1,8 +1,8 @@
 .navbar {
     display: flex;
     background-color: #FF9292;
-    justify-content: flex-end;
-    gap: 50%;
+    justify-content: space-between;
+    min-width: 80vw;
 }
 
 .nav-links {
@@ -18,4 +18,10 @@
 .nav-item {
     display: flex;
     padding: 5px;
+}
+
+
+.image-class {
+    display: inline-flex;
+    max-height: 50px;
 }

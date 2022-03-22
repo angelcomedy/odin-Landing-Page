@@ -1,6 +1,6 @@
 .navbar {
     display: flex;
-    background-color: #FF9292;
+    background-color: #1F2937;
     justify-content: space-between;
     min-width: 80vw;
 }
@@ -14,14 +14,38 @@
     
 }
 
-
 .nav-item {
     display: flex;
     padding: 5px;
+    color: #E5E7Eb;
+    font-size: 18px;
+    
 }
-
 
 .image-class {
     display: inline-flex;
     max-height: 50px;
 }
+
+.header-box {
+    display: flex;
+    background-color: #1F2937;
+
+}
+
+.header-texts {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-button {
+    background-color: #3882F6;
+    width: 15%;
+}
+
+.main-image {
+    display: flex;
+    width: 50%;
+    border: 2px solid red;
+}
+

@@ -36,6 +36,9 @@
 .header-texts {
     display: flex;
     flex-direction: column;
+    margin: 100px;
+    font-weight: bolder;
+
 }
 
 .header-button {
@@ -43,9 +46,15 @@
     width: 15%;
 }
 
+.header-box-mexican {
+    display: flex;
+    justify-content: center;
+}
 .main-image {
     display: flex;
     width: 50%;
     border: 2px solid red;
+    margin: 100px;
+
 }
 
